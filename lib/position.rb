@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'debug'
+
 class Position
   # マスを'f3','d6'などの表記で表現する。変数名cell_refとして取り扱う。
   COL = %w[a b c d e f g h].freeze
